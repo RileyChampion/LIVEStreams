@@ -1,0 +1,22 @@
+{
+  "name": "livestreams",
+  "version": "1.0.0",
+  "description": "Google Extension using Twitch API to show live streamers that are streaming",
+  "main": "livestream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RileyChampion/LIVEStreams.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RileyChampion/LIVEStreams/issues"
+  },
+  "homepage": "https://github.com/RileyChampion/LIVEStreams#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

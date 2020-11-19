@@ -1,2 +1,2 @@
 # LIVEStreams
-Google Extension using Twitch API to show live streamers that are streaming
+Google Extension using Twitch API to Twitch streamers that are currently live!

@@ -135,7 +135,7 @@ function insertStreamer(streamer) {
 
         var streamers_game = document.createElement("p")
         streamers_game.setAttribute("class", "streamer-game");
-        streamers_game.innerHTML = `Game: ${streamer.game_name == null ? "N/A" : streamers[i].game_name}`
+        streamers_game.innerHTML = `Game: ${streamer.game_title == null ? "N/A" : streamer.game_title}`
         streamer_box.appendChild(streamers_game);
 
         var streamer_url = document.createElement("a");
@@ -170,6 +170,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             <a class="arrow-link" href=""><img src=""></a>
         </div> -->
     */
+   streamers.sort((a,b) => b.viewer_count - a.viewer_count)
     document.getElementById("search-box").style.display = "none";
     for (let i = 0; i < streamers.length; i++) {
         insertStreamer(streamers[i])
